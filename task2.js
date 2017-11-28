@@ -21,3 +21,11 @@ function sumB(){
 }
 
 sumB(5,10);
+
+//task c
+function sumRecursively(max){	
+	if (max == 1){return 1;}		
+	return max + sumRecursively(max - 1);	
+}
+
+sumRecursively(100);

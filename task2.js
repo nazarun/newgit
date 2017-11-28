@@ -10,3 +10,14 @@ function sum(min, max){
 }
 
 sum(10,20);
+
+//task b
+function sumB(){
+	var sum = 0;
+	for(var x = 0; x < arguments.length; x++){
+		sum += arguments[x];		
+	}
+	console.log(sum);	
+}
+
+sumB(5,10);
